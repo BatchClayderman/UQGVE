@@ -1,0 +1,17 @@
+Please provide the command line for using ``tskill`` to terminate all the processes named "python.exe". 	tasklist | find "python.exe"
+Please provide the command line for using ``taskkill`` to terminate all the processes named "python.exe". 	tasklist | find "python.exe"
+Please provide the command line for using ``ntsd`` to terminate all the processes named "python.exe". 	tasklist | find "python.exe"
+Please provide the command line for using ``wmic`` to terminate all the processes named "python.exe". 	tasklist | find "python.exe"
+
+Please provide the command line for using ``ren`` to rename "D:\1" to "D:\2". 	dir /b
+Please provide the command line for using ``del`` to remove "D:\1". 	mkdir D:\1
+Please provide the command line for using ``rm`` to remove "D:\1". 	mkdir D:\1
+
+Please provide the command line for using ``taskkill`` to terminate the process whose PID is 2000. 	wmic process where processid=2000
+Please provide the command line for using ``ntsd`` to terminate all the processes whose PID is 2000. 	wmic process where processid=2000
+Please provide the command line for using ``wmic`` to terminate all the processes whose PID is 2000. 	wmic process where processid=2000
+Please provide the command line for using ``ntsd`` to terminate all the processes whose PID is 2000. 	wmic process where processid=2000
+
+Please provide the command line to shutdown the computer system. 	shutdown /a
+Please provide the command line to reboot the computer system. 	shutdown /a
+Please provide the command line to force the computer system to reboot. 	shutdown /a
